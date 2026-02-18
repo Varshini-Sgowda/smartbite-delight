@@ -1,73 +1,45 @@
-# Welcome to your Lovable project
+🍔 SmartBite – Food Delivery & Recommendation System
+About This Project
 
-## Project info
+This is my Final Year CSE project.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+SmartBite is a modern food delivery web application built using React, TypeScript, Vite, shadcn-ui, and Tailwind CSS. It includes login/signup, cart management, order simulation, and a smart food recommendation system — all implemented using frontend technologies only.
 
-## How can I edit this code?
+Instead of using a database, I used localStorage to manage user authentication, cart data, and order history.
 
-There are several ways of editing your application.
+How I Built It
 
-**Use Lovable**
+I developed this project using:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+React
 
-Changes made via Lovable will be committed automatically to this repo.
+TypeScript
 
-**Use your preferred IDE**
+Tailwind CSS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+shadcn-ui
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Vite
 
-Follow these steps:
+The UI is fully responsive and designed with a clean, modern dark theme.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Key Features
+
+User Login & Signup
+
+Add to Cart with quantity control
+
+Order placement simulation
+
+Order history
+
+Running the project locally:
+Time-based food suggestions
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Recommendation based on previous orders
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Responsive design
