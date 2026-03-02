@@ -1,8 +1,5 @@
 🍔 SmartBite – Food Delivery & Recommendation System
 About This Project
-
-This is my Final Year CSE project.
-
 SmartBite is a modern food delivery web application built using React, TypeScript, Vite, shadcn-ui, and Tailwind CSS. It includes login/signup, cart management, order simulation, and a smart food recommendation system — all implemented using frontend technologies only.
 
 Instead of using a database, I used localStorage to manage user authentication, cart data, and order history.
