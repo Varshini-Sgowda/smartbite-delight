@@ -8,7 +8,7 @@ How I Built It
 
 I developed this project using:
 
-React
+React 
 
 TypeScript
 
